@@ -29,8 +29,8 @@ gulp.task('pug', function(){
 });
 
 gulp.task('default', ['pug', 'sass', 'browser-sync'], function(){
-    gulp.watch(["assets/sass/**/*.sass", "assets/sass/**/*.css"], "sass");
-    gulp.watch("assets/pugfiles/**/*.pug", "pug");
+    gulp.watch(["assets/sass/**/*.sass", "assets/sass/**/*.css"], ["sass"]);
+    gulp.watch("assets/pugfiles/**/*.pug", ["pug"]);
     gulp.watch("assets/js/**/*.js", browserSync.reload);
     gulp.watch("./*.html", browserSync.reload);
     gulp.watch("assets/css/*.css", browserSync.reload);

@@ -1,0 +1,28 @@
+{
+  "name": "dickensons-home",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000G\u0000u\u0000l\u0000p\u0000-\u0000S\u0000a\u0000s\u0000s\u0000-\u0000P\u0000u\u0000g\u0000-\u0000B\u0000r\u0000o\u0000w\u0000s\u0000e\u0000r\u0000S\u0000y\u0000n\u0000c\u0000\r\u0000 \u0000",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonm4130/Dickensons-Home.git"
+  },
+  "author": "Jason M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonm4130/Dickensons-Home/issues"
+  },
+  "homepage": "https://github.com/jasonm4130/Dickensons-Home#readme"
+}
